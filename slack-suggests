@@ -1,0 +1,2 @@
+ffmpeg >= 2.5.11
+transcode >= 1.1.7

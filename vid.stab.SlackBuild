@@ -19,14 +19,14 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: vid.stab.SlackBuild,v 1.1 2016/09/18 12:55:12 gsotirov Exp $
+# $Id: vid.stab.SlackBuild,v 1.2 2016/09/22 22:58:50 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=vid.stab
-VERSION=0.98b
-ARCH=${ARCH:-i486}
+VERSION='0.98b.97c6ae2'
+ARCH=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
 TMP=${TMP:-/tmp}
@@ -36,7 +36,7 @@ if [ ! -e $TMP ]; then
   mkdir -p $TMP # location to build the source
 fi
 
-SRC=$TMP/${NAME}-release-${VERSION}
+SRC=$TMP/${NAME}-${VERSION}
 if [ -e $SRC -a -d $SRC ]; then
   echo "Source directory '$SRC' already exists! Plaese, move it or remove it."
   exit 1

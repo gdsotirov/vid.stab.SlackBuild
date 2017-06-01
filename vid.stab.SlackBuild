@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # Slackware build script for vid.stab
-# Copyright (C) 2016 Georgi D. Sotirov <gdsotirov@dir.bg>
+# Copyright (C) 2016-2017 Georgi D. Sotirov <gdsotirov@dir.bg>
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: vid.stab.SlackBuild,v 1.2 2016/09/22 22:58:50 gsotirov Exp $
+# $Id: vid.stab.SlackBuild,v 1.3 2017/06/01 11:53:32 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=vid.stab
-VERSION='0.98b.97c6ae2'
+VERSION=1.1.0
 ARCH=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
